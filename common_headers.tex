@@ -1,5 +1,5 @@
 %KDP 6inx9in sans fonds perdus
-\usepackage[paperwidth=150mm, paperheight=230mm]{geometry}
+\usepackage[paperwidth=6in, paperheight=9in]{geometry}
 
 \usepackage{fontspec}
 \usepackage[nolocalmarks]{polyglossia}
@@ -83,6 +83,12 @@ headsep=3mm,
 
 \newcommand{\gscore}[1]{
   \gregorioscore{\subfix{gabc/#1}}
+}
+
+\newcommand{\incipit}[2]{
+  \gresetinitiallines{0}
+  \gregorioscore{\subfix{incipits/#1_#2}}
+  \gresetinitiallines{1}
 }
 
 % we want to print NABC 'cause this is the RG
@@ -197,7 +203,19 @@ headsep=3mm,
 	\end{paracol}
 }
 
-\newcommand{\capitulum}[2]{
+\newcommand{\oratio}[2]{
+	\twocoltext{#1}{#2}
+}
+
+\newcommand{\versiculus}[4]{
+	\twocoltext{
+		\vv #1 \\ \rr #2
+	}{
+		\vv #3 \\ \rr #4
+	}
+}
+
+\newcommand{\capitulum}[3]{
 \smalltitle{Lecture brève}\hfill\rubric{#1}
 \twocoltext{#2}{#3}
 }
