@@ -199,7 +199,7 @@ headsep=3mm,
 
 %% Macro to print initials of some texts in red
 \newcommand{\colored}[1]{
-	\textcolor{gregoriocolor}{#1}
+	\textcolor{gregoriocolor}{#1}%
 }
 
 %% Macro to print the blessing 
@@ -266,6 +266,7 @@ headsep=3mm,
 }
 
 \newcommand{\oratio}[2]{
+	\smalltitle{Oraison}
 	\twocoltext{#1}{#2}
 }
 
