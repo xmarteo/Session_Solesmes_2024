@@ -3,5 +3,6 @@ office-part:Antiphona;
 mode:7;
 book:Antiphonale Romanum II, 2009, p. 479 & Antiphonale monasticum II, 2006, p. 50;
 commentary:Ps 109, 1;
+nabc-lines:1;
 %%
-(c3) DI(g)xit(h) Dó(i)mi(j)nus(i) *() Dó(ih)mi(f)no(h) me(gf)o(e) :() (;) Se(f)de(f) a(d) dex(fh)tris(g) me(e)is.(e) (::) <eu>E(i) u(i) o(j) u(i) a(h) e.(ih) </eu>(::)
+(c3) DIX(g|vi)it(h|vihh) Dó(i|vihi)mi(j|vihk)nus(i|ta) *() Dó(ih|cl-)mi(f|ta)no(h|vi) me(gf|cl-)o:(e|ta) (;) Se(f|vi)de(f|vi) a(d|ta) dex(fh|pe)tris(g|vi) me(e|ta)is.(e|ta) (::) <eu>E(i) u(i) o(j) u(i) a(h) e.(ih) </eu>(::)
