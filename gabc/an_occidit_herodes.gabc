@@ -4,8 +4,8 @@ mode:8;
 book:Antiphonale monasticum III, 2007, p. 153;
 transcriber:Jakub Jelínek;
 commentary:Ac. 12, 2;
+nabc-lines:1;
 %%
-(c4) OC(g)cí(gj)dit(h) He(g)ró(h)des(gf) Ia(gh)có(h)bum,(g) <sp>*</sp>(,)
-fra(gf)trem(d) Io(e)án(fg)nis,(gh) (`)
-glá(g)di(fg)o.(g) (::)
+(c4) OC(g|ta)cí(gj|pe)dit(h|vi) He(g|ta)ró(h|vi)des(gf|cllsc3) Ja(gh|pe)có(h|vi)bum,(g.|ta-) (,) <sp>*</sp> fra(g_f|cl-)trem(d|ta) Jo(e|ta)án(f_g|peS)nis,(gh|pe) (`) glá(g|vi)di(fg|pe)o.(g.|ta) (::)
+
 <eu>E(j) u(j) o(i) u(j) a(h) e.(g) </eu>(::)
