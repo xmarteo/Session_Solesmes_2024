@@ -77,7 +77,9 @@ headsep=3mm,
 
 \newcommand{\smallscore}[1]{
   \gresetinitiallines{0}
+  \vspace{1mm}
   \gregorioscore{\subfix{gabc/#1}}
+  \vspace{-1mm}
   \gresetinitiallines{1}
 }
 
@@ -297,7 +299,6 @@ headsep=3mm,
   \begin{center}
 	{\fontspec[Scale=\customscale]{Futura Book}
 	\MakeUppercase{\Large #1}\\
-	{#2}
 	}
   \end{center}
   \renewcommand{\rightmark}{\hyphenpenalty=50{\sc#3}}
